@@ -26,13 +26,13 @@ body {
     padding-left: 20px;
 }
 .searchlogo{
-    width: 50px;
+    width: 32px;
     height: 32px;
     background-color: white;
     float: left
 }
 .wrap{
-    width: 900px;
+    width: 1050px;
     height: 35.5px;
     margin-top: 20px;
     margin-left: 10px;
@@ -41,8 +41,9 @@ body {
     background-color: white
 }
 .search{
-    width: 850px;
+    width: 1005px;
     height: 35px;
+    padding-left: 10px;
     border: none
 }
 
@@ -65,12 +66,12 @@ body {
     float:left;
 }
 .cart{
-     width: 50px;
-    height: 35.5px;
+     width: 35px;
+    height: 35px;
     margin-top: 20px;
-    margin-left: 10px;
-    background-color: white;
-    float: left
+    margin-left: 30px;
+    background-color: salmon;
+    float: left;
 }
 #logofooter {
     height: 100px;

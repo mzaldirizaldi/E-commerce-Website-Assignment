@@ -1,155 +1,121 @@
-#layout1 /*To make frame of two pictures (Picture1 and Picture 2 side by side)*/ 
+#layout1
 {
-    height: 650px;
+    height: 562px;
     width: 90%;
     margin-left: 5%;
+    margin-right: 5%;
     margin-top: 20px;
-    margin-bottom: 50px
-}
-#picture1 a/*frame a picture, use width and height 100% in img to use it*/
-{
-    height: 300px;
-    width: 100%;
-    background-color: indianred;
-    float: left;
-}
-#picture1 a:hover/*to make picture1 invisibile when click on it*/
-{
-    height: 300px;
-    width: 100%;
-    background-color: indianred;
-    float: left;
-    opacity: 30%
 }
 #frame1
 {
-    height: 350px;
-    width: 45%;
+    height: 150px;
+    width: 100%;
     float: left;
-    margin-right: 1.3%;
+    background-color: salmon;
 }
 #frame2
 {
-    height: 350px;
-    width: 53.4%;
-    float: left
+    height: 100px;
+    width: 70%;
+    margin-top: 20px;
+    float: left;
+    background-color: salmon;
 }
 #frame3
 {
     height: 350px;
-    width: 33%;
-    float: left;
-    margin-top: 30px;
-    margin-right: 0.30%
+    width: 27%;
+    margin-top: 20px;
+    float: right;
+    margin-left: 2.9%;
+    background-color: salmon;
 }
 
-#picture2 a/*frame a picture, use width and height 100% in img to use it*/
-{
-    height: 300px;
-    width: 100%;
-    float: left;
-    background-color: indianred;
-}
-#picture2 a:hover/*to make picture2 invisibile when click on it*/
-{
-    height: 300px;
-    width: 100%;
-    float: left;
-    background-color: indianred;
-    opacity: 30%;
-}
-#titleA1 h2 a/*title text in the bottom of picture1*/
-{
-    height: 50px;
-    width: 100%;
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: grey;
-    padding-top: 20px
-}
-#titleA1 h2 a:hover/*to turn titleA1 into red when you click it*/
-{
-    height: 50px;
-    width: 100%;
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    color: indianred;
-    background-color: grey;
-    padding-top: 20px
-}
-#titleA2 h2 a/*title text in the bottom of picture2*/
-{
-    height: 50px;
-    width: 100%;
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: grey;
-    padding-top: 20px
-}
-#titleA2 h2 a:hover/*to turn titleA2 into red when you click it*/
-{
-    height: 50px;
-    width: 100%;
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    color: indianred;
-    background-color: grey;
-    padding-top: 20px
-}
-#layout2 /*to make frame of 3 pictures (picture3, picture4, and picture5 are side by side)*/
-{
-    height: 350px;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 60px;
-    
-}
-#picture3 a/*To frame a picture, width and height 100% when you use it*/
-{
-    height: 300px;
-    width: 100%;
-     background-color: grey
-}
-#picture3 a:hover/*to make picture3 invisibility when you click it*/
-{
-    height: 300px;
-    width: 100%;  
-    opacity: 30%;
-    background-color: grey
-}
-
-#titleB/*title frame in the bottom of picture3, picture4, and picture5*/
+#frame4
 {
     height: 100px;
-    width: 90%;
-    margin-left: 5%;
-    text-decoration: none;
-}
-#titleB1 h2 a/*title text in the bottom of picture3*/
-{
-    height: 50px;
-    width: 100%;
+    width: 100px;
+    margin-top: 90px;
+    margin-right: 10px;
     float: left;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: grey;
-    padding-top: 20px
+    background-color: salmon;
 }
-#titleB1 h2 a:hover/*to turn titleB1 into red when you click it*/
+
+#frame5
 {
-    height: 50px;
-    width: 100%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 10px;
     float: left;
-    text-align: center;
-    text-decoration: none;
-    color: indianred;
-    background-color: grey;
-    padding-top: 20px
+    background-color: salmon;
+}
+
+#frame6
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 110px;
+    float: left;
+    background-color: salmon;
+}
+
+#frame7
+{
+    height: 230px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    background-color: salmon;
+}
+
+#frame8
+{
+    height: 70px;
+    margin-right: 10px;
+    width: 48%;
+    float: left;
+    background-color: salmon;
+}
+
+#frame9
+{
+    height: 70px;
+    width: 48%;
+    float: left;
+    background-color: salmon;
+
+}
+
+#frame10
+{
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 48%;
+    float: left;
+    background-color: salmon;
+}
+
+#frame11
+{
+    height: 70px;
+    width: 48%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float: left;
+    background-color: salmon;
+
+}
+
+#special
+{
+    height: 230px;
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: -20px;
+    float: left;
 }

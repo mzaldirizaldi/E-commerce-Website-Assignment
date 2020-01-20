@@ -5,9 +5,13 @@
         <link rel="stylesheet" type="text/css"
         href="css/homepage.css">
         <link rel="shortcut icon" href="img/favicon.ico">
+         <script src="script.js"></script>
         <title>Shopeepedia</title>
     </head> 
     <body>
+        <script>
+            
+        </script>
         <div id="header">
             <a href="Homepage.html"><img id="logoheader" src="img/BlaBlaBla.png"></a>
             <h3>Category</h3>
@@ -17,19 +21,37 @@
                     <input type="text" placeholder="Search.." name="search" class="search">
                 </form>
             </div>
-            <div class="cart"><a href=""><img src="img/cart.png" width="100%" height="100%"></a></div>
-            <div id="login"><h3>Login</h3></div>
+            <div class="cart" onclick="total()"><img src="img/cart.png" width="100%" height="100%"></div>
+            <div id="login" onclick="loginpage()"><h3>Login</h3></div>
         </div>
         <div id="layout1">
+            <div id="totalwrap">
+                <div id="hoodie" style="display: none;font-size: 150%">Hoodie
+                    <p><button onclick="plus()" type="button">+</button></p>
+                    <p><button onclick="minus()" type="button">-</button></p>
+                    <p><button onclick="cancel()" type="button">Cancel Order</button></p>
+                    <p><button onclick="confirm()" type="button">Confirm Order</button></p>
+                </div>
+<div id="result"></div>
+            </div>
+             <div id="loginwrap">
+                <div id="login2">
+                    <p>Username</p>
+                    <input type="text" placeholder="" name="username" class="username">
+                    <p>Password</p>
+                    <input type="password" placeholder="" name="username" class="username">
+                    <button>Login</button>
+                </div>
+            </div>
             <div id="frame1"><img src="img/Banner.jpg" width="100%" height="100%"></div>
             <div id="frame2"><img src="img/indomie.jpg" width="100%" height="100%"></div>
             <div id="frame3"><img src="img/Todays.jpg" width="100%" height="100%"></div>
-            <div id="frame4"><img src="img/hoodie.jpg" width="100%" height="100%"></div>
+            <div id="frame4" onclick="hoodie()"><img src="img/hoodie.jpg" width="100%" height="100%"></div>
             <div id="frame5"><img src="img/hat.jpg" width="100%" height="100%"></div>
             <div id="frame6"><img src="img/Shoes.jpg" width="100%" height="100%"></div>
             <div id="frame7"><img src="img/watch.jpg" width="100%" height="100%"></div>
             <div id="special">
-                <div id="frame8"><img src="img/Indofood.jpg" width="100%" height="100%"></div>
+                <div id="frame8" onclick="notify()"><img src="img/Indofood.jpg" width="100%" height="100%"></div>
                 <div id="frame9"><img src="img/Ahha.jpg" width="100%" height="100%"></div>
                 <div id="frame10"><img src="img/Billionaire.jpg" width="100%" height="100%"></div>
                 <div id="frame11"><img src="img/Nike.jpg" width="100%" height="100%"></div>

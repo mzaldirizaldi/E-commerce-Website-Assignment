@@ -59,6 +59,15 @@ body {
     margin-right: 10px
     
 }
+#loginwrap{
+    display: none;
+    background-color: salmon;
+    margin-left: 83%;
+    margin-top: -20px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+}
 #logoheader {
     height: 70px;
     margin-left: 10px;

@@ -13,9 +13,20 @@ function loginpage()
   }
 }
 
+function category()
+{
+  var x = document.getElementById("categorywrap");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 function hoodie()
 {
       var x = document.getElementById("hoodie");
+    localStorage.clear();
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
@@ -31,6 +42,7 @@ function cancel()
   } else {
     x.style.display = "block";
   }
+    localStorage.clear()
 document.getElementById("result").innerHTML = "You ordered nothing";
 }
 
@@ -52,8 +64,12 @@ function plus() {
     }
     document.getElementById("result").innerHTML = "You ordered " + localStorage.clickcount + " hoodie";
   }
+    if(localStorage.clickcount < 0) {
+    document.getElementById("result").innerHTML = "You ordered nothing";
+    localStorage.clear();
+  }
 }
-             function minus() {
+function minus() {
   if (typeof(Storage) !== "undefined") {
     if (localStorage.clickcount) {
       localStorage.clickcount = Number(localStorage.clickcount)-1;
@@ -61,8 +77,8 @@ function plus() {
       localStorage.clickcount = 1;
     }
     document.getElementById("result").innerHTML = "You ordered " + localStorage.clickcount + " hoodie";
-  } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  } if(localStorage.clickcount < 0) {
+    document.getElementById("result").innerHTML = "You ordered nothing";
   }
 }
 

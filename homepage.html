@@ -14,7 +14,7 @@
         </script>
         <div id="header">
             <a href="Homepage.html"><img id="logoheader" src="img/BlaBlaBla.png"></a>
-            <h3>Category</h3>
+            <div class="category" onclick="category()"><h3>Category</h3></div>
             <div class="wrap">
                 <form action="forum.html">
                     <div class="searchlogo"><img src="img/search.png" width="50%" height="50%" style="margin-top: 10px;margin-left: 10px"></div>
@@ -24,15 +24,22 @@
             <div class="cart" onclick="total()"><img src="img/cart.png" width="100%" height="100%"></div>
             <div id="login" onclick="loginpage()"><h3>Login</h3></div>
         </div>
+        <div id="categorywrap">
+                <ul>
+                    <li>Men's Clothing</li>
+                    <li>Women's Clothing</li>
+                    <li>Electronic</li>
+                </ul>
+            </div>
         <div id="layout1">
             <div id="totalwrap">
-                <div id="hoodie" style="display: none;font-size: 150%">Hoodie
-                    <p><button onclick="plus()" type="button">+</button></p>
-                    <p><button onclick="minus()" type="button">-</button></p>
-                    <p><button onclick="cancel()" type="button">Cancel Order</button></p>
-                    <p><button onclick="confirm()" type="button">Confirm Order</button></p>
+                <div id="hoodie" style="display: none;font-size: 150%; margin-left: 20px">Hoodie
+                    <p><button onclick="plus()" type="button" style="width: 20px; float: left; margin-left: 10px; text-align: center">+</button></p>
+                    <p><button onclick="minus()" type="button" style="width: 20px; float: left; margin-left: 10px;margin-right: 100px; text-align: center">-</button></p>
+                    <p><button onclick="cancel()" type="button" style="margin-left: 10px">Cancel Order</button></p>
+                    <p><button onclick="confirm()" type="button" style="margin-left: 10px">Confirm Order</button></p>
+                    <div id="result" style="text-align: center"></div>
                 </div>
-<div id="result"></div>
             </div>
              <div id="loginwrap">
                 <div id="login2">

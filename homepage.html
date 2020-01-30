@@ -33,37 +33,38 @@
             </div>
         <div id="layout1">
             <div id="totalwrap">
-                <div id="hoodie" style="display: none;font-size: 150%; margin-left: 20px">Hoodie
+                <div id="imageintotal"><img src="img/blankcart.jpg" width="100%" height="100%"></div>
+                <div id="hoodie" style="display: none;font-size: 150%; margin-left: 20px;position: absolute;overflow: hidden;">Hoodie
                     <p><button onclick="plus()" type="button" style="width: 20px; float: left; margin-left: 10px; text-align: center">+</button></p>
                     <p><button onclick="minus()" type="button" style="width: 20px; float: left; margin-left: 10px;margin-right: 100px; text-align: center">-</button></p>
                     <p><button onclick="cancel()" type="button" style="margin-left: 10px">Cancel Order</button></p>
                     <p><button onclick="confirm()" type="button" style="margin-left: 10px">Confirm Order</button></p>
-                    <div id="result" style="text-align: center"></div>
+                    <div id="result"></div>
                 </div>
             </div>
              <div id="loginwrap">
                 <div id="login2">
-                    <p>Username</p>
+                    <p style="font-family:sans-serif; color: white">Username</p>
                     <input type="text" placeholder="" name="username" class="username">
-                    <p>Password</p>
+                    <p style="font-family:sans-serif; color: white">Password</p>
                     <input type="password" placeholder="" name="username" class="username">
-                    <button>Login</button>
+                    <button style="font-family:sans-serif">Login</button>
                 </div>
             </div>
             <img id="frame1" width="100%" height="150px">
-            <div id="frame2"><img src="img/indomie.jpg" width="100%" height="100%"></div>
-            <div id="frame3"><img src="img/Todays.jpg" width="100%" height="100%"></div>
-            <div id="frame4" onclick="hoodie()"><img src="img/hoodie.jpg" width="100%" height="100%"></div>
-            <div id="frame5"><img src="img/hat.jpg" width="100%" height="100%"></div>
-            <div id="frame6"><img src="img/Shoes.jpg" width="100%" height="100%"></div>
-            <div id="frame7"><img src="img/watch.jpg" width="100%" height="100%"></div>
+            <div><img id="frame2" src="img/indomie.jpg" width="100%" height="100%"></div>
+            <div><img id="frame3" src="img/Todays.jpg" width="100%" height="100%"></div>
+            <div><img id="frame4" onclick="hoodie(); cartpicture();" src="img/hoodie.jpg" width="100%" height="100%"></div>
+            <div><img id="frame5" src="img/hat.jpg" width="100%" height="100%"></div>
+            <div><img id="frame6" src="img/Shoes.jpg" width="100%" height="100%"></div>
+            <div><img id="frame7" src="img/watch.jpg" width="100%" height="100%"></div>
             <div id="special">
-                <div id="frame8" onclick="notify()"><img src="img/Indofood.jpg" width="100%" height="100%"></div>
-                <div id="frame9"><img src="img/Ahha.jpg" width="100%" height="100%"></div>
-                <div id="frame10"><img src="img/Billionaire.jpg" width="100%" height="100%"></div>
-                <div id="frame11"><img src="img/Nike.jpg" width="100%" height="100%"></div>
-                <div id="frame8"><img src="img/Adidas.jpg" width="100%" height="100%"></div>
-                <div id="frame9"><img src="img/Supreme.jpg" width="100%" height="100%"></div>
+                <div id="frame8" onclick="notify()"><img id="indomie" src="img/Indofood.jpg" width="100%" height="100%"></div>
+                <div><img id="frame9" src="img/Ahha.jpg" width="100%" height="100%"></div>
+                <div><img id="frame10" src="img/Billionaire.jpg" width="100%" height="100%"></div>
+                <div><img id="frame11" src="img/Nike.jpg" width="100%" height="100%"></div>
+                <div><img id="frame8" src="img/Adidas.jpg" width="100%" height="100%"></div>
+                <div><img id="frame9" src="img/Supreme.jpg" width="100%" height="100%"></div>
             </div>
         </div>
         <div id="footer">

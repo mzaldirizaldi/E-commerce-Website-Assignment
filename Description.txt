@@ -1,0 +1,14 @@
+{
+  "indofood": "PT Indofood Sukses Makmur Tbk, better known as Indofood,<br>is a major Indonesian company involved in the food industry. <br>The companys headquarters are in Jakarta.",
+  "indofoodimg": "img/Indofood.jpg",
+  "nikeimg": "img/Nike.jpg",
+  "nike": "Nike is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services.",
+  "adidas": "Adidas is a multinational corporation, founded and headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories.",
+  "adidasimg": "img/Adidas.jpg",
+  "billionaire": "Billionaire Project is clothing company that based on Indonesia, and the founder is Arief Muhammad.",
+  "billionaireimg": "img/Billionaire.jpg",
+  "supreme": "Supreme is an American skateboarding shop and clothing brand established in New York City in April 1994.",
+  "supremeimg": "img/Supreme.jpg",
+  "ahha": "Ahha is clothing company that based on Indonesia, and the founder is Atta Halilintar.",
+  "ahhaimg": "img/Ahha.jpg"
+}

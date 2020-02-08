@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/basic.css">
         <link rel="stylesheet" type="text/css"
         href="css/homepage.css">
         <link rel="shortcut icon" href="img/favicon.ico">
          <script src="script.js"></script>
          <script src="script2.js"></script>
+        <script src="ajax.js"></script>
         <title>Shopeepedia</title>
     </head> 
     <body>
@@ -23,10 +27,10 @@
                 </form>
             </div>
             <div class="cart" onclick="total()"><img src="img/cart.png" width="100%" height="100%"></div>
-            <div id="myBtn"><h3>Login</h3></div>
+            <div id="myBtn" onclick="myBtn()"><h3>Login</h3></div>
                 <div id="myModal" class="modal">
                     <div class="modal-content">
-                        <span class="close">&times;</span>
+                        <span class="close" onclick="close1()">&times;</span>
                         <div id="login2">
                             <p style="text-align: center; font-size: 20px"><b>LOGIN</b></p>
                             <br>
@@ -57,6 +61,13 @@
                     <p><button onclick="confirm()" type="button" style="margin-left: 10px">Confirm Order</button></p>
                     <div id="result"></div>
                 </div>
+                <div id="cap" style="display: none;font-size: 150%; margin-left: 20px;position: absolute;overflow: hidden;">Cap
+                    <p><button onclick="plus()" type="button" style="width: 20px; float: left; margin-left: 10px; text-align: center">+</button></p>
+                    <p><button onclick="minus()" type="button" style="width: 20px; float: left; margin-left: 10px;margin-right: 100px; text-align: center">-</button></p>
+                    <p><button onclick="cancel()" type="button" style="margin-left: 10px">Cancel Order</button></p>
+                    <p><button onclick="confirm()" type="button" style="margin-left: 10px">Confirm Order</button></p>
+                    <div id="result"></div>
+                </div>
             </div>
             <img id="frame1" width="100%" height="150px">
             <div><img id="frame2" src="img/indomie.jpg" width="100%" height="100%"></div>
@@ -66,39 +77,25 @@
             <div><img id="frame6" src="img/Shoes.jpg" width="100%" height="100%"></div>
             <div><img id="frame7" src="img/watch.jpg" width="100%" height="100%"></div>
             <div id="special">
-                <div id="frame8" onclick="notify()"><img id="indomie" src="img/Indofood.jpg" width="100%" height="100%"></div>
-                <div><img id="frame9" src="img/Ahha.jpg" width="100%" height="100%"></div>
-                <div><img id="frame10" src="img/Billionaire.jpg" width="100%" height="100%"></div>
-                <div><img id="frame11" src="img/Nike.jpg" width="100%" height="100%"></div>
-                <div><img id="frame8" src="img/Adidas.jpg" width="100%" height="100%"></div>
-                <div><img id="frame9" src="img/Supreme.jpg" width="100%" height="100%"></div>
+                <div id="frame8" onclick="indofood()">
+                    <img id="indomie" src="img/Indofood.jpg" width="100%" height="100%">
+                </div>
+                <div><img id="frame9" onclick="ahha()" src="img/Ahha.jpg" width="100%" height="100%"></div>
+                <div><img id="frame10" onclick="billion()" src="img/Billionaire.jpg" width="100%" height="100%"></div>
+                <div><img id="frame11" onclick="nike()" src="img/Nike.jpg" width="100%" height="100%"></div>
+                <div><img id="frame8" onclick="adidas()" src="img/Adidas.jpg" width="100%" height="100%"></div>
+                <div><img id="frame9" onclick="supreme()" src="img/Supreme.jpg" width="100%" height="100%"></div>
             </div>
         </div>
         <div id="footer">
             <a href="Homepage.html"><img id="logofooter" src="img/BlaBlaBla.png"></a>
         </div>
-        
-        <script>
-            var modal = document.getElementById("myModal");
-
-            var btn = document.getElementById("myBtn");
-
-            var span = document.getElementsByClassName("close")[0];
-
-            btn.onclick = function() {
-            modal.style.display = "block";
-            }
-
-            span.onclick = function() {
-            modal.style.display = "none";
-            }
-
-            window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-                }
-            }
-        </script>
+        <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="close2()">&times;</span>
+                         <div id="result1"></div>
+                    </div>
+                </div>
         
     </body>
 </html>

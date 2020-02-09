@@ -305,7 +305,9 @@
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.6);
 }
-
+#imageintotal{
+    visibility: 100%;
+}
 .modal-content1 {
   background-color: salmon;
   margin: auto;
@@ -317,6 +319,16 @@
     border-radius: 10px;
 }
 #result1{
+    font-size: 150%; 
+    font-family: cursive; 
+    text-align: center;
+}
+#result2 img{
+    border-radius: 10px;
+    width: 150px;
+    height:150px;
+}
+#result2{
     font-size: 150%; 
     font-family: cursive; 
     text-align: center;

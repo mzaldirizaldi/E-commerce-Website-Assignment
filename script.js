@@ -8,9 +8,43 @@ function loginpage() { 'use strict'; var x = document.getElementById("loginwrap"
 
 function category() { 'use strict'; var x = document.getElementById("categorywrap"); if (x.style.display === "block") { x.style.display = "none"; } else { x.style.display = "block"; } }
 
-function hoodie() { 'use strict'; var x = document.getElementById("hoodie"); localStorage.clear(); if (x.style.display === "block") { x.style.display = "none"; } else { x.style.display = "block"; }
-                   document.getElementById("result").innerHTML = "You ordered " + localStorage.clickcount + " hoodie"; }
-function cartpicture() {'use strict'; var y = document.getElementById("imageintotal"); if (y.style.visibility === "hidden") {y.style.visibility = "visible"; } else {y.style.visibility = "hidden"; } }
+function hoodie() { 'use strict'; 
+                   var x = document.getElementById("hoodie"); 
+                   var y = document.getElementById("hat");
+                   var z = document.getElementById("shoes");
+                   var a = document.getElementById("smartwatch");
+                   var b = document.getElementById("imageintotal");
+                   localStorage.clear();
+                   if (x.style.display === "none") { x.style.display = "block"; y.style.display = "none"; z.style.display = "none"; a.style.display = "none"; } else { x.style.display = "none";}}
+
+function hat() {  'use strict'; 
+                   var x = document.getElementById("hoodie"); 
+                   var y = document.getElementById("hat");
+                   var z = document.getElementById("shoes");
+                   var a = document.getElementById("smartwatch");
+                   var b = document.getElementById("imageintotal");
+                   localStorage.clear();
+                   if (y.style.display === "none") { y.style.display = "block"; x.style.display = "none"; z.style.display = "none"; a.style.display = "none"; } else { x.style.display = "none";}}
+
+function shoes() {  'use strict'; 
+                   var x = document.getElementById("hoodie"); 
+                   var y = document.getElementById("hat");
+                   var z = document.getElementById("shoes");
+                   var a = document.getElementById("smartwatch");
+                   var b = document.getElementById("imageintotal");
+                   localStorage.clear();
+                   if (z.style.display === "none") { z.style.display = "block"; y.style.display = "none"; x.style.display = "none"; a.style.display = "none"; } else { x.style.display = "none";}}
+
+function smartwatch() {  'use strict'; 
+                   var x = document.getElementById("hoodie"); 
+                   var y = document.getElementById("hat");
+                   var z = document.getElementById("shoes");
+                   var a = document.getElementById("smartwatch");
+                   var b = document.getElementById("imageintotal");
+                   localStorage.clear();
+                   if (a.style.display === "none") { a.style.display = "block"; y.style.display = "none"; z.style.display = "none"; x.style.display = "none"; } else { x.style.display = "none";}}
+
+function cartpicture() {'use strict'; var y = document.getElementById("imageintotal"); if (y.style.opacity === "0%") {y.style.opacity = "100%"; } else {y.style.opacity = "0%"; } }
 
 function cancel() { 'use strict'; var x = document.getElementById("hoodie"); if (x.style.display === "none") { x.style.display = "none"; } else { x.style.display = "block"; } localStorage.clear(); document.getElementById("result").innerHTML = "You ordered nothing"; }
 
@@ -30,7 +64,6 @@ function confirm() {
     if(x.style.display === "block"){x.style.display = "none";}else{x.style.display = "none";}
     localStorage.clear();
 }
-
 function myBtn(){
 var modal = document.getElementById("myModal");
 if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }}

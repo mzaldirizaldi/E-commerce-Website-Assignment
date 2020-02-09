@@ -10,5 +10,13 @@
   "supreme": "Supreme is an American skateboarding shop and clothing brand established in New York City in April 1994.",
   "supremeimg": "img/Supreme.jpg",
   "ahha": "Ahha is clothing company that based on Indonesia, and the founder is Atta Halilintar.",
-  "ahhaimg": "img/Ahha.jpg"
+  "ahhaimg": "img/Ahha.jpg",
+  "flashsaleimg": "img/flashsaleimg.jpg",
+  "flashsale": "Nihaome Redme 69 R̶p̶.̶ ̶3̶.̶4̶0̶0̶.̶0̶0̶0̶.̶-̶ ̶  Sale Rp. 500.000.- only!",
+"indomie": "Indomie Goreng",
+"indomieimg": "img/indomie1.jpg",
+"indomie1": "Indomie Ayam Bawang",
+"indomieimg1": "img/indomie2.jpg",
+"donate": "Please donate us!",
+"donateimg": "img/barcode.png"
 }

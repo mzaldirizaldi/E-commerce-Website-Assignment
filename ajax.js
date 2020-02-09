@@ -4,7 +4,7 @@
 function indofood() {'use strict'; var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
             xhr.onerror = function () { alert("Failed to get data");
             };
@@ -37,7 +37,7 @@ function nike() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -67,7 +67,7 @@ function adidas() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -96,7 +96,7 @@ function billion() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -126,7 +126,7 @@ function ahha() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -156,7 +156,7 @@ function supreme() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -186,7 +186,7 @@ function flashsale() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -216,7 +216,7 @@ function indomie() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
@@ -250,7 +250,7 @@ function donate() {
             var modal = document.getElementById("myModal1");
             if (modal.style.display === "none") { modal.style.display = "block"; } else { modal.style.display = "block"; }
             var xhr = new XMLHttpRequest();
-            var url = "https://00e9e64bac430721a4f95c50d1447ed8943b4aff038670c5c6-apidata.googleusercontent.com/download/storage/v1/b/client-side/o/shopeepedia%2FDescription.txt?qk=AD5uMEtgAvtxsGZQCSxmDYK33t_xjxsi97Zvl5YFZHMt6AzDHZNoW8bU2yeAA6dYPQwrzvyblLYEpeWDDSYoKJykwrmpu4tpYv8R_DYUHFVT_8wYcShfXiuRyu_usqtYtQ9kzaSLpoquQNb4okabdklxtHebY9aXnarqR4X1t9kAwAUQg5Q9tVDX8kf7JQoAj6uuHDb0tp1OFWCNA2TdJ6XtDGjTc4w8cF51_-M0cW9HRS2kY_BItvygWYLENM5_LhrReBNlCTFyicyYcGSLcdsiqal4xr199SWRUY2aDGQunm8IsbJKav6lohIC5qrRdBBiaVkE_ijBkbS5RxvfBxyvBIvdO1eaPfc3uGiFX98ieP1vjJIXeaX9P8HconSRnOPJL6qyPSBtJnhGS27pd1Yeu431ybBKqbxxG4ve2oZElZ9g-SXi30fzrlgbHjTEeTCL2IQxrMa8ZOyvE6Pb_tXl0w9kBUwcWYzBA6vLzQEZHn5aShN0gD_ouvteTsKnpJMquG1frcD1eM3Q54A3Z5gV6keen9A1IBw3iTn-2iE7hIWwiFNhM0LSD8YIJTSsl8fZZS3ov68AHWr5v1mLyNETGaAXoUVCp8LTrMCRUwAScrC3d4rtNn7AWxYvelnXOjzUPXu5wJHeyIF2dcLl0M2dL6q7Rh6nbwlnuIGMATlG2LryisZKHuWa7FazTVMvb6gzELi8jWaDT3HMGNkkh7sLKshco14Uw2Egdml27JSPIlqt2qXBwIdAKDAYCYC9ZDsvmBCvSJ441jLJttzMg134KjXF7eVPZN0NK4QFDWHRUca0z1Uu_AcAKD6LTvd7IofYGto55Qp1";
+            var url = "Description.txt";
 
 
             xhr.onerror = function () {
